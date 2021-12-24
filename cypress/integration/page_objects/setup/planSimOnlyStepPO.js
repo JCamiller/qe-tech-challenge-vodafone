@@ -2,6 +2,7 @@ const common = require('../common')
 const locator = require('../locators/planSimOnlyStepPage')
 
 export function clickContinueToCartButton() {
+    common.assertVisibility(locator.btnContinueToCart)
     common.click(locator.btnContinueToCart)
     cy.wait(10000)
 }
