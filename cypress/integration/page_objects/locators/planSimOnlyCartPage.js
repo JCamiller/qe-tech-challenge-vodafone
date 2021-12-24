@@ -1,0 +1,1 @@
+export const lblPlanName = "//h4[contains(@data-testid,'cart-card-title-')]//div[contains(@class,'RichText')]"

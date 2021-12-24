@@ -1,0 +1,24 @@
+{
+  "name": "qe-tech-challenge-vodafone",
+  "version": "1.0.0",
+  "description": "UI & API Automation",
+  "main": "index.js",
+  "scripts": {
+    "test-all": "npx cypress open",
+    "test-all-headless": "npx cypress run"
+  },
+  "dependencies": {
+    "cypress": "^9.1.0",
+    "cypress-cucumber-preprocessor": "^4.3.0",
+    "cypress-xpath": "^1.6.2",
+    "sync-request": "^6.1.0"
+  },
+  "devDependencies": {
+    "cypress-file-upload": "^5.0.8"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "author": "",
+  "license": "ISC"
+}
